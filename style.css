@@ -83,6 +83,73 @@ p {
     background-color: #131839;
     color: white
 }
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contactenos{
+    color: white;  
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;   
+}
+
+h4{
+    color: #6C56C2;
+    font-size: 27px;
+    font-family: 'Inter';
+    font-style: normal;   
+}
+.formulario-boxes{
+    width: 500px;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;    
+}
+.formulario-item1{
+    font-size: 1.1em;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.formulario-item2{
+    font-size: 1.1em;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.formulario-item3{
+    font-size: 1.1em;
+    padding: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: none;
+}
+.formulario-item3::placeholder {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;ç
+}
+
+.formulario-enviar {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #6C56C2;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    border: none;
+}
+
+    
 
 
 
