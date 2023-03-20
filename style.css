@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -69,6 +69,7 @@ p {
    padding: 20px;
 }
 
+
 .btn-hero-main {
     display: flex;
     justify-content: right;
@@ -92,10 +93,45 @@ p {
 .formulario-boxes {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
+.formulario-item1 {
+    margin: auto;
+    height: 80px;
+    width: 299px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
 
+}
+.formulario-item2 {
+    margin: auto;
+    height: 80px;
+    width: 299px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+
+}
+.formulario-item3 {
+    margin: auto;
+    height: 140px;
+    width: 300px;
+    left: 26px;
+    top: 1697px;
+    border-radius: 5px;
+
+}
+.formulario-enviar {
+    margin: auto;
+    background-color:#6C56C2;
+    color: white;
+    height: 86px;
+    width: 299px;
+    left: 26px;
+    top: 1853px;
+    border-radius: 16px;
+}
 
 @media screen and (min-width: 800px) {
 
