@@ -85,11 +85,16 @@ p {
 }
 .footer-main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     text-align: center;
 }
 
+.formulario-boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 
 
 @media screen and (min-width: 800px) {
