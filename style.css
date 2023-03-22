@@ -25,19 +25,23 @@ body {
     align-items: center;
     margin-top: 40px;
 }
+
 nav {
     display: none;
 }
+
 .akai-logo {
     height: 30px;
     padding-left: 20px ;
 }
-.btn-header {
-    display: flex;
-    justify-content: right;
-    padding: 16px;
+
+label {
+    height: 58px;
+    width: 52px;
     border-radius: 8px;
+
 }
+
 .try {
     display: none;
 }
@@ -152,11 +156,11 @@ img {
         display: flex;
         flex-direction: column;
     }
-     .try {
+    .try {
         display: flex
      }
 
-     .btn-header {
+     label {
         display: none;
      }
 
