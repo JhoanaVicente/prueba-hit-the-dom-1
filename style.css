@@ -35,16 +35,10 @@ nav {
     padding-left: 20px ;
 }
 
-label {
-    height: 58px;
-    width: 52px;
-    border-radius: 8px;
-
-}
-
 .try {
     display: none;
 }
+
 .hero-main {
     display: grid;
     grid-template-rows: 1fr;
