@@ -38,6 +38,9 @@ nav {
     padding: 16px;
     border-radius: 8px;
 }
+.try {
+    display: none;
+}
 .hero-main {
     display: grid;
     grid-template-rows: 1fr;
@@ -60,7 +63,7 @@ h1 {
     align-items: center;
 }
 br {
-    
+
 }
 .asterisco-lila {
     width: 30px;
@@ -144,6 +147,18 @@ img {
     .hero-main{
         grid-template-columns: 1fr 1fr;
     }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+     .try {
+        display: flex
+     }
+
+     .btn-header {
+        display: none;
+     }
 
 
     
