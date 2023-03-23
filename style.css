@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -47,47 +47,63 @@ nav {
 
 .pad-botones {
     height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .hero-text {
-    flex-wrap: wrap;
-    justify-content: center;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
 }
 
 h1 {
     display: flex;
     flex-direction: column;
-    padding: 40px;
     align-items: center;
+    width: 285px;
+    text-align: center;
 }
-h2 {
+.sonido-texto {
     display: flex;
     justify-content: center;
+    color:#6C56C2;
+    font-size: 30px;
 }
 .asterisco-lila {
     width: 30px;
     display: flex;
+    margin-top: 20px;
 }
 
 p {
    display: flex;
    padding: 20px;
+   color: #A9A5A6;
+   text-align: center;
+   font-size: 18px;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
-
 
 .btn-hero-main {
-    display: flex;
-    justify-content: right;
-    padding: 16px;
-    border-radius: 8px;
+    height: 109.95085144042969px;
+    width: 246px;
+    border-radius: 16px;
+    background-color: #6C56C2;
+    color: white;
+    font-size: 23px;
+}
 
-}
 .btn-hero-main2 {
-    display: flex;
-    justify-content: right;
-    padding: 16px;
     background-color: #131839;
-    color: white
+    color: white;
+    font-size: 23px;  
 }
+.btn-img {
+    margin: 20px;
+}
+
 img {
     margin:auto;
 }
@@ -114,24 +130,24 @@ img {
     width: 299px;
     border-radius: 5px;
     margin-bottom: 10px;
-
 }
+
 .formulario-item2 {
     margin: auto;
     height: 70px;
     width: 299px;
     border-radius: 5px;
     margin-bottom: 10px;
-
 }
+
 .formulario-item3 {
     margin: auto;
     height: 120px;
     width: 300px;
     border-radius: 5px;
     margin-bottom: 10px;
-
 }
+
 .formulario-enviar {
     margin: auto;
     background-color:#6C56C2;
