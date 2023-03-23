@@ -49,7 +49,6 @@ nav {
     height: 200px;
 }
 .hero-text {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;  
 }
@@ -62,11 +61,11 @@ h1 {
 }
 h2 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 .asterisco-lila {
     width: 30px;
+    display: flex;
 }
 
 p {
