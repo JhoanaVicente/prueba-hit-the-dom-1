@@ -52,6 +52,9 @@ nav {
 
 .hero-pad {
     position: absolute;
+    text-align: center;
+    margin-top: 0.1em;
+    border-radius: 10px;
 }
 
 .pad-botones {
@@ -189,7 +192,6 @@ h4 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding-top: 3em;
-        gap: 5em;
     }
 
     .header-navbar {
@@ -230,18 +232,42 @@ h4 {
 
      .hero-pad {
         position: relative;
+        display: grid;
+        height: min-content;
+        position: relative;
+        filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
      }
 
      .pad-botones {
-
+        height: 368px;
      }
 
      h1 {
         margin: auto;
      }
-      br {
     
-      }
+     .botones-akai {
+        display: flex;
+        align-items: baseline;
+     }
+     .btn-hero-main {
+        height: 80px;
+        font-size: 20px;
+        margin-left: 20px;
+     }
+     
+     .btn-hero-main2 {
+        height: 80px;
+        font-size: 20px;
+        margin-left: 20px;
+        gap: 10px;
+        align-items: center;   
+     }
+     .btn-img {
+        margin: 20px;
+        padding-inline: 10px;
+     }
+
 
 
     
