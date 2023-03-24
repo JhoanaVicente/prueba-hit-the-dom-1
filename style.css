@@ -31,8 +31,12 @@ nav {
     display: none;
 }
 
+.rectangulo-lila {
+    margin-right: 30px;
+}
+
 .akai-logo {
-    height: 30px;
+    height: 50px;
     padding-left: 20px ;
 }
 
@@ -44,6 +48,10 @@ nav {
     display: grid;
     grid-template-rows: 1fr;
     justify-items: center;  
+}
+
+.hero-pad {
+    position: absolute;
 }
 
 .pad-botones {
@@ -63,7 +71,7 @@ h1 {
     align-items: center;
     width: 285px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 300px;
 }
 .sonido-texto {
     display: flex;
@@ -178,20 +186,62 @@ h4 {
     }
 
     .hero-main{
-        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 3em;
+        gap: 5em;
+    }
+
+    .header-navbar {
+        display: flex;
+        gap: 3em;
+        align-items: center;
     }
 
     nav{
         display: flex;
         flex-direction: column;
     }
+    .navbar {
+        list-style: none;
+        display: flex;
+        gap: 38px;
+        justify-content: space-between;
+    }
     .try {
-        display: flex
-     }
+        background-color: #6C56C2;
+        display: flex;
+        width: 110px;
+        height: 38px;
+        align-items: center;
+        color: white;
+        border-radius: 5px;
+        justify-content: center;
+        margin-right: 50px;
+    }
 
      label {
         display: none;
      }
+
+     .rectangulo-lila {
+        display: none;
+     }
+
+     .hero-pad {
+        position: relative;
+     }
+
+     .pad-botones {
+
+     }
+
+     h1 {
+        margin: auto;
+     }
+      br {
+    
+      }
 
 
     
