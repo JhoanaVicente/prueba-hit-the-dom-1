@@ -245,6 +245,7 @@ h4 {
      .botones-akai {
         display: flex;
         align-items: baseline;
+        margin-bottom: 80px;
      }
      .btn-hero-main {
         height: 80px;
@@ -276,6 +277,40 @@ h4 {
     .asterisco-lila {
        width: 25px;;
     }
+
+  .footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+
+  .formulario-item1 {
+    height: 80px;
+    width: 653px;
+    border-radius: 5px;
+  }
+
+  .formulario-item2 {
+    height: 80px;
+    width: 653px;
+    border-radius: 5px;
+  }
+
+  .formulario-item3 {
+    height: 140px;
+    width: 655px;
+    border-radius: 5px;
+  }
+
+  .formulario-enviar {
+    height: 68px;
+    width: 345px;
+    border-radius: 16px;
+    margin-left: inherit;
+    
+  }
+
 
 
 
