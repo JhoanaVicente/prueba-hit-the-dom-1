@@ -61,6 +61,24 @@ nav {
     height: 200px;
 }
 
+.pad-set-botones {
+    position: absolute;
+    top: 11%;
+    right: 2%;
+    width: 66%;
+    height: 72%;
+  }
+
+  .btn-rojo {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+
+
 .hero-text {
     display: flex;
     align-items: center;
@@ -236,14 +254,6 @@ h4 {
         display: none;
      }
 
-     .hero-pad {
-        position: relative;
-        display: grid;
-        height: min-content;
-        position: relative;
-        filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
-     }
-
      .pad-botones {
         height: 508px;
      }
@@ -353,7 +363,29 @@ h4 {
     width: 345px;
     border-radius: 16px;
     margin-left: inherit;
-    
   }
-     
+
+  .hero-pad {
+    height: min-content;
+    position: relative;
+    filter: drop-shadow(0px 0px 100px rgba(186, 168, 255, 0.42));
+ }
+
+  .pad-set-botones {
+    position: absolute;
+    top: 11%;
+    right: 3%;
+    width: 66%;
+    height: 72%;
+  }
+
+  .btn-rojo {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+
 }
