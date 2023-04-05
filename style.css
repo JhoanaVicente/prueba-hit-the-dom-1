@@ -72,7 +72,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 285px;
+    /*width: 285px;*/
     text-align: center;
     margin-top: 300px;
 }
@@ -88,6 +88,10 @@ h1 {
     margin-top: 20px;
 }
 
+.aste-lila {
+    display: none;
+}
+
 p {
    display: flex;
    padding: 20px;
@@ -96,6 +100,10 @@ p {
    font-size: 18px;
    margin-top: 50px;
    margin-bottom: 50px;
+}
+
+.parrafo-escritorio {
+    display: none;
 }
 
 .btn-hero-main {
@@ -181,7 +189,7 @@ h4 {
     top: 1853px;
     border-radius: 16px;
 }
-
+/* CONFIGURAMOS DE FIRST MOBIL A ESCRITORIO*/
 @media screen and (min-width: 600px) {
 
     .hero-main{
@@ -199,6 +207,7 @@ h4 {
     nav{
         display: flex;
         flex-direction: column;
+        cursor: pointer;
     }
     .navbar {
         list-style: none;
@@ -216,6 +225,7 @@ h4 {
         border-radius: 5px;
         justify-content: center;
         margin-right: 50px;
+        cursor: pointer;
     }
 
      label {
@@ -235,11 +245,16 @@ h4 {
      }
 
      .pad-botones {
-        height: 368px;
+        height: 508px;
      }
 
      h1 {
-        margin: auto;
+        display: flex;
+        text-align: start;
+        font-size: xx-large;
+        margin-top: auto;
+        font-size: 60px;
+        margin-left: 125px;
      }
     
      .botones-akai {
@@ -250,16 +265,22 @@ h4 {
      .btn-hero-main {
         height: 80px;
         font-size: 20px;
-        margin-left: 20px;
+        font-weight: 120px;
+        cursor: pointer;
+        margin-left: 48px;
+        
      }
      
      .btn-hero-main2 {
-        height: 80px;
-        font-size: 20px;
-        margin-left: 20px;
-        gap: 10px;
-        align-items: center;   
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
      }
+
+     .poligono-play {
+        margin-right: 25px;
+     }
+
      .btn-img {
         margin: 20px;
         padding-inline: 10px;
@@ -270,25 +291,49 @@ h4 {
         font-size: 20px;
      }
 
+     .sonido-asterisco {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+     }
+
      .sonido-texto {
-        margin-right: 7em;
-        font-size: 30px;
+        margin-left: 38px;
+        font-size: 58px;
     }
-    .asterisco-lila {
-       width: 25px;;
+
+     .asterisco-lila {
+        display: none;
+    }
+
+    .aste-lila {
+        display: grid;
+        margin-left: 30px;
+    }
+
+    .parrafo-escritorio {
+        display: flex;
+        text-align: initial;
+        font-size: unset;
+        margin-left: 110px;
+    }
+
+    p {
+        display: none;
     }
 
   .footer-main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    margin-top: 60px;
   }
 
   .formulario-item1 {
     height: 80px;
     width: 653px;
     border-radius: 5px;
+    margin-top: 10px;
   }
 
   .formulario-item2 {
@@ -310,10 +355,5 @@ h4 {
     margin-left: inherit;
     
   }
-
-
-
-
-    
-    
+     
 }
