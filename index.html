@@ -41,14 +41,14 @@
             <div class="hero-pad">
                 <img class="pad-botones" src="pad.png" alt="pad-botones">
             <div class="pad-set-botones">
-                <button class="btn-rojo"></button>
-                <button class="btn-rojo"></button>
-                <button class="btn-rojo"></button>
-                <button class="btn-rojo"></button>
-                <button class="btn-rojo"></button>
-                <button class="btn-rojo"></button>
-                <button class="btn-rojo"></button>
-                <button class="btn-rojo"></button>
+                <button class="btn-rojo-bombo" onclick="playInstrument('./sonidos/bombo.wav')"></button>
+                <button class="btn-rojo-crash"></button>
+                <button class="btn-rojo-hit-hat"></button>
+                <button class="btn-rojo-redoblante"></button>
+                <button class="btn-rojo-tom1"></button>
+                <button class="btn-rojo-tom2"></button>
+                <button class="btn-rojo-tom3"></button>
+                <button class="btn-rojo-tom4"></button>
                 <button class="btn-rojo"></button>
                 <button class="btn-rojo"></button>
                 <button class="btn-rojo"></button>
@@ -58,6 +58,8 @@
                 <button class="btn-rojo"></button>
                 <button class="btn-rojo"></button>
             </div>
+
+
             </div>
         </main>
         <footer class="footer-main">
@@ -68,7 +70,7 @@
             <form action="" class="formulario-boxes">
                 <input class="formulario-item1" type="text" placeholder=" Nombre*" class="campo" minlength="5" maxlength="50" required/>
                 <input class="formulario-item2" type="email" placeholder=" Email*" class="campo" required/>
-                <input class="formulario-item3" type="" placeholder=" Mensaje" cols="50" rows="7" class="campo"minlength="11" maxlength="100"/>
+                <textarea class="formulario-item3" type="" placeholder=" Mensaje" cols="80" rows="10" class="campo"minlength="11" maxlength="100"></textarea>
                 <input type="Submit" class="formulario-enviar">
             </form>
         </footer>

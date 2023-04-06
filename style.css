@@ -206,6 +206,7 @@ h4 {
     left: 26px;
     top: 1853px;
     border-radius: 16px;
+    cursor: pointer;
 }
 /* CONFIGURAMOS DE FIRST MOBIL A ESCRITORIO*/
 @media screen and (min-width: 600px) {
@@ -388,4 +389,72 @@ h4 {
     height: 95px;
   }
 
-}
+  .btn-rojo-bombo {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+
+  .btn-rojo-crash {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+
+  .btn-rojo-hit-hat {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-redoblante {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-tom1 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-tom2 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-tom3 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-tom4 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+
+      }
+  
