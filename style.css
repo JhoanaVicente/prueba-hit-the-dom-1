@@ -397,6 +397,11 @@ h4 {
     width: 95px;
     height: 95px;
   }
+  .btn-rojo-bombo:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
 
   .btn-rojo-crash {
     background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
@@ -405,6 +410,11 @@ h4 {
     border-radius: 5px;
     width: 95px;
     height: 95px;
+  }
+  .btn-rojo-crash:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
   }
 
   .btn-rojo-hit-hat {
@@ -415,6 +425,12 @@ h4 {
     width: 95px;
     height: 95px;
   }
+  .btn-rojo-hit-hat:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
   .btn-rojo-redoblante {
     background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
     border: 3px solid #D94A4A;
@@ -422,6 +438,11 @@ h4 {
     border-radius: 5px;
     width: 95px;
     height: 95px;
+  }
+  .btn-rojo-redoblante:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
   }
   .btn-rojo-tom1 {
     background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
@@ -431,6 +452,12 @@ h4 {
     width: 95px;
     height: 95px;
   }
+  .btn-rojo-tom1:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
   .btn-rojo-tom2 {
     background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
     border: 3px solid #D94A4A;
@@ -439,6 +466,12 @@ h4 {
     width: 95px;
     height: 95px;
   }
+  .btn-rojo-tom2:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
   .btn-rojo-tom3 {
     background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
     border: 3px solid #D94A4A;
@@ -447,6 +480,12 @@ h4 {
     width: 95px;
     height: 95px;
   }
+  .btn-rojo-tom3:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
   .btn-rojo-tom4 {
     background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
     border: 3px solid #D94A4A;
@@ -454,6 +493,123 @@ h4 {
     border-radius: 5px;
     width: 95px;
     height: 95px;
+  }
+  .btn-rojo-tom4:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas1 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-sebas1:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas2 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-sebas2:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas3 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-sebas3:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas4 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-sebas4:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas5 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-sebas5:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas6 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-sebas6:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas7 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-sebas7:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas8 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 3px solid #D94A4A;
+    box-shadow: -3px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 95px;
+    height: 95px;
+  }
+  .btn-rojo-sebas8:hover {
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
   }
 
       }
