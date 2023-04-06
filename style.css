@@ -31,9 +31,18 @@ nav {
     display: none;
 }
 
-.rectangulo-lila {
+#menu-button {
     margin-right: 30px;
-}
+    background-color: #6C56C2;
+    color: white;
+    width: 53px;
+    height: 59px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 29px;
+    cursor: pointer;
+    border: none
+  }
 
 .akai-logo {
     height: 50px;
@@ -69,7 +78,7 @@ nav {
     height: 72%;
   }
 
-  .btn-rojo {
+  .btn-rojo-bombo {
     background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
     border: 2px solid #D94A4A;
     box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
@@ -77,7 +86,221 @@ nav {
     width: 35px;
     height: 35px;
   }
+  .btn-rojo-bombo:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
 
+  .btn-rojo-crash {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-crash:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-hit-hat {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-hit-hat:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-redoblante {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-redoblante:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-tom1 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-tom1:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-tom2 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-tom2:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-tom3 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-tom3:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-tom4 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-tom4:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas1 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-sebas1:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas2 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-sebas2:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas3 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-sebas3:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas4 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-sebas4:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas5 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-sebas5:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas6 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-sebas6:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+  
+  .btn-rojo-sebas7 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-sebas7:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
+
+  .btn-rojo-sebas8 {
+    background: linear-gradient(180deg, #222222 50.35%, #353535 100%);
+    border: 2px solid #D94A4A;
+    box-shadow: -1px 6px 4px rgba(0, 0, 0, 0.61), inset 0px 4px 6px rgba(255, 255, 255, 0.52), inset -3px 5px 4px rgba(0, 0, 0, 0.77);
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .btn-rojo-sebas8:hover{
+    box-shadow: 0 12px 16px 0 red, 0 17px 50px 0 red;
+    transition-duration: 0,4s;
+    -webkit-transition-duration: 0,4s;
+  }
 
 .hero-text {
     display: flex;
@@ -132,6 +355,7 @@ p {
     color: white;
     font-size: 23px;
     margin-top: 50px;
+    border: none;
 }
 
 .btn-hero-main2 {
@@ -207,6 +431,7 @@ h4 {
     top: 1853px;
     border-radius: 16px;
     cursor: pointer;
+    border: none;
 }
 /* CONFIGURAMOS DE FIRST MOBIL A ESCRITORIO*/
 @media screen and (min-width: 600px) {
@@ -245,15 +470,16 @@ h4 {
         justify-content: center;
         margin-right: 50px;
         cursor: pointer;
+        border: none;
     }
 
      label {
         display: none;
      }
 
-     .rectangulo-lila {
+     #menu-button {
         display: none;
-     }
+      }
 
      .pad-botones {
         height: 508px;
@@ -278,8 +504,7 @@ h4 {
         font-size: 20px;
         font-weight: 120px;
         cursor: pointer;
-        margin-left: 48px;
-        
+        margin-left: 48px;   
      }
      
      .btn-hero-main2 {
@@ -378,6 +603,7 @@ h4 {
     right: 3%;
     width: 66%;
     height: 72%;
+    border: none;
   }
 
   .btn-rojo {
